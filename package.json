@@ -1,20 +1,19 @@
 {
-  "name": "sravani-ai",
+  "name": "chat-ai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://parimaladini.github.io/Sravani-AI",
+  "homepage": "https://github.com/parimaladini/Sravani-AI.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-     
-    "predeploy": "npm run build",        
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "axios": "^1.7.7",
+    "axios": "^1.6.7",
     "gh-pages": "^6.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
